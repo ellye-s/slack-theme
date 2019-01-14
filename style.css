@@ -1624,6 +1624,6 @@ p-emoji_picker__heading {
 }
 
 body .emoji-only {
-    line-height: 2rem;
-    font-size: 2rem;
+    line-height: 2rem !important;
+    font-size: 2rem !important;
 }
