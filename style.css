@@ -1560,8 +1560,8 @@ ts-jumper .p-jumper__help {
 .c-message_list__unread_divider__label,
 .c-member_slug--link:hover,
 .c-member_slug--link,
-.p-search_filter__more_link, 
-.c-link--button {
+#c-search__tab__messages .p-search_filter__more_link, 
+#c-search__tab__messages .c-link--button {
     color: var(--primary);
 }
 
