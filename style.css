@@ -1544,7 +1544,9 @@ ts-jumper .p-jumper__help {
 
 .c-search_autocomplete__suggestion_item--selected,
 .p-message_pane__unread_banner,
-.p-message_pane__unread_banner__close--detached {
+.p-message_pane__unread_banner__close--detached, 
+.p-message_pane__unread_banner__banner:hover,
+.p-message_pane__unread_banner__close:hover {
     background: var(--primary);
 }
 
