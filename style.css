@@ -1578,10 +1578,14 @@ p-emoji_picker__heading {
     background: var(--background);
 }
 
-.c-message_group .c-message_group__header:focus .c-channel_name, .c-message_group .c-message_group__header:focus .c-channel_name__team_name, .c-message_group .c-message_group__header:focus .c-message_group__header_date, .c-message_group:hover .c-message_group__header .c-channel_name, .c-message_group:hover .c-message_group__header .c-channel_name__team_name, .c-message_group:hover .c-message_group__header .c-message_group__header_date {
+#c-search__tab__messages .c-message_group .c-message_group__header:focus .c-channel_name, 
+#c-search__tab__messages .c-message_group .c-message_group__header:focus .c-channel_name__team_name, 
+#c-search__tab__messages .c-message_group .c-message_group__header:focus .c-message_group__header_date, 
+#c-search__tab__messages .c-message_group:hover .c-message_group__header .c-channel_name, 
+#c-search__tab__messages .c-message_group:hover .c-message_group__header .c-channel_name__team_name, 
+#c-search__tab__messages .c-message_group:hover .c-message_group__header .c-message_group__header_date {
     color: var(--primary);
 }
-
 
 .p-message_pane__unread_banner__jump, 
 .p-message_pane__unread_banner__msg, 
