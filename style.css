@@ -33,7 +33,7 @@ limitations under the License.
    --text-special: var(--primary);
 
    --scrollbar-background: #000;
-   --scrollbar-border: var(--primary);
+   --scrollbar-border: var(--border-dim);
 }
 
 h1, h2, h3, h4 {
