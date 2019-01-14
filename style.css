@@ -1505,3 +1505,11 @@ ts-jumper .p-jumper__help {
 #user_groups_container .mention {
     background-color: var(--background-hover);
 }
+
+.c-message__editor__input--legacy {
+	background-color: #000;
+}
+
+.c-message__editor__input--legacy.focus {
+    border-color: var(--primary);
+}
