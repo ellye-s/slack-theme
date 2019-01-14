@@ -1552,6 +1552,10 @@ ts-jumper .p-jumper__help {
     background: var(--primary);
 }
 
+.c-search_autocomplete__suggestion_item--selected {
+    color: var(--background);
+}
+
 #edit_topic_trigger, 
 .c-message_list__unread_divider__label,
 .c-member_slug--link:hover,
