@@ -1514,9 +1514,12 @@ ts-jumper .p-jumper__help {
     border-color: var(--primary);
 }
 
-.c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box {
-    background-color: rgba(0,0,0,.4);
+.c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box,
+.texty_legacy.texty_single_line_input.focus, .texty_legacy.texty_single_line_input:hover,
+.c-search__input_and_close {
+    background-color: #1d1d1d;
 }
+
 
 .c-search_autocomplete__suggestion_item .token {
     color: #adadad;
@@ -1524,4 +1527,17 @@ ts-jumper .p-jumper__help {
 
 .c-search_autocomplete__suggestion_item {
     color: #fff;
+}
+
+#msg_input,
+#primary_file_button {
+    border-width: 1px;
+}
+
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover {
+    border-width: 1px 0px 1px 0;
+}
+
+.c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * {
+   color: var(--primary) !important;
 }
