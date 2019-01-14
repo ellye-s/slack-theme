@@ -1608,6 +1608,10 @@ p-emoji_picker__heading {
     background: #3a3a3a;
 }
 
+.p-emoji_picker__heading {
+    background: transparent;
+}
+
 .c-member_slug--link:hover {
     background: #333;
     color: var(--primary);
