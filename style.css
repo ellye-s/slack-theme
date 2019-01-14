@@ -1559,7 +1559,9 @@ ts-jumper .p-jumper__help {
 #edit_topic_trigger, 
 .c-message_list__unread_divider__label,
 .c-member_slug--link:hover,
-.c-member_slug--link {
+.c-member_slug--link,
+.p-search_filter__more_link, 
+.c-link--button {
     color: var(--primary);
 }
 
@@ -1576,6 +1578,11 @@ p-emoji_picker__heading {
     background: var(--background);
 }
 
+.c-message_group .c-message_group__header:focus .c-channel_name, .c-message_group .c-message_group__header:focus .c-channel_name__team_name, .c-message_group .c-message_group__header:focus .c-message_group__header_date, .c-message_group:hover .c-message_group__header .c-channel_name, .c-message_group:hover .c-message_group__header .c-channel_name__team_name, .c-message_group:hover .c-message_group__header .c-message_group__header_date {
+    color: var(--primary);
+}
+
+
 .p-message_pane__unread_banner__jump, 
 .p-message_pane__unread_banner__msg, 
 .p-message_pane__unread_banner__close {
@@ -1587,7 +1594,8 @@ p-emoji_picker__heading {
 }
 
 .p-emoji_picker__list_container, 
-.p-emoji_picker__footer {
+.p-emoji_picker__footer, 
+.ql-container.texty_single_line_input {
     background: transparent;
 }
 
