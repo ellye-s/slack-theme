@@ -1519,7 +1519,7 @@ ts-jumper .p-jumper__help {
 }
 
 .c-search_autocomplete__suggestion_item .token {
-    color: #adadad;
+    rgba(0,0,0,.4)
 }
 
 .c-search_autocomplete__suggestion_item {
