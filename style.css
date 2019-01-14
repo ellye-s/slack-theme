@@ -1550,7 +1550,8 @@ ts-jumper .p-jumper__help {
     background: var(--primary);
 }
 
-#edit_topic_trigger {
+#edit_topic_trigger, 
+.c-message_list__unread_divider__label {
     color: var(--primary);
 }
 
