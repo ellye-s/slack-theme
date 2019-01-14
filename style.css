@@ -1609,7 +1609,7 @@ p-emoji_picker__heading {
 }
 
 .p-emoji_picker__heading {
-    background: transparent;
+    background: var(--background);
 }
 
 .c-member_slug--link:hover {
