@@ -1545,3 +1545,14 @@ ts-jumper .p-jumper__help {
 .c-search_autocomplete__suggestion_item--selected {
     background: var(--primary);
 }
+
+.c-menu.p-emoji_picker {
+    background: var(--background);
+}
+
+.p-emoji_picker__heading, 
+.p-emoji_picker__list_container, 
+.p-emoji_picker__input_container, 
+.p-emoji_picker__footer {
+    background: transparent;
+}
