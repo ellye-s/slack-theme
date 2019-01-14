@@ -1602,7 +1602,7 @@ p-emoji_picker__heading {
     background: #333;
 }
 
-.tab_complete_ui li.tab_complete_ui_group.active .cmd-left-td, .tab_complete_ui li.tab_complete_ui_group.active .cmd-right-td, .tab_complete_ui li.tab_complete_ui_group.active .presence.active, .tab_complete_ui li.tab_complete_ui_group.active span, .tab_complete_ui li.tab_complete_ui_item.active .cmd-left-td, .tab_complete_ui li.tab_complete_ui_item.active .cmd-right-td, .tab_complete_ui li.tab_complete_ui_item.active .presence.active, .tab_complete_ui li.tab_complete_ui_item.active span {
+#col_messages .tab_complete_ui li.tab_complete_ui_item.active span {
     color: var(--background) !important;
     text-shadow: none;
 }
