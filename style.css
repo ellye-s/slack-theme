@@ -1542,8 +1542,15 @@ ts-jumper .p-jumper__help {
    color: var(--primary) !important;
 }
 
-.c-search_autocomplete__suggestion_item--selected {
+.c-search_autocomplete__suggestion_item--selected,
+#edit_topic_trigger, 
+.p-message_pane__unread_banner,
+.p-message_pane__unread_banner__close--detached {
     background: var(--primary);
+}
+
+.p-message_pane__unread_banner__close--detached {
+    border-left: 1px solid var(--background);
 }
 
 .c-menu.p-emoji_picker, 
