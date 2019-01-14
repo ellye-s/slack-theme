@@ -1513,3 +1513,15 @@ ts-jumper .p-jumper__help {
 .c-message__editor__input--legacy.focus {
     border-color: var(--primary);
 }
+
+.c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box {
+    background-color: #000;
+}
+
+.c-search_autocomplete__suggestion_item .token {
+    color: #adadad;
+}
+
+.c-search_autocomplete__suggestion_item {
+    color: #fff;
+}
