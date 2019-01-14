@@ -1549,6 +1549,10 @@ ts-jumper .p-jumper__help {
     background: var(--primary);
 }
 
+.p-message_pane__unread_banner {
+    color: var(--background);
+}
+
 .p-message_pane__unread_banner__close--detached {
     border-left: 1px solid var(--background);
 }
@@ -1556,6 +1560,16 @@ ts-jumper .p-jumper__help {
 .c-menu.p-emoji_picker, 
 p-emoji_picker__heading {
     background: var(--background);
+}
+
+.p-message_pane__unread_banner__jump, 
+.p-message_pane__unread_banner__msg, 
+.p-message_pane__unread_banner__close {
+    text-shadow: none;
+}
+
+.p-message_pane__unread_banner__msg {
+    font-weight: 400;
 }
 
 .p-emoji_picker__list_container, 
