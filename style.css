@@ -1543,10 +1543,13 @@ ts-jumper .p-jumper__help {
 }
 
 .c-search_autocomplete__suggestion_item--selected,
-#edit_topic_trigger, 
 .p-message_pane__unread_banner,
 .p-message_pane__unread_banner__close--detached {
     background: var(--primary);
+}
+
+#edit_topic_trigger {
+    color: var(--primary);
 }
 
 .p-message_pane__unread_banner {
