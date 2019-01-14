@@ -1546,12 +1546,16 @@ ts-jumper .p-jumper__help {
 .p-message_pane__unread_banner,
 .p-message_pane__unread_banner__close--detached, 
 .p-message_pane__unread_banner__banner:hover,
-.p-message_pane__unread_banner__close:hover {
+.p-message_pane__unread_banner__close:hover, 
+.tab_complete_ui li.tab_complete_ui_group.active, 
+.tab_complete_ui li.tab_complete_ui_item.active {
     background: var(--primary);
 }
 
 #edit_topic_trigger, 
-.c-message_list__unread_divider__label {
+.c-message_list__unread_divider__label,
+.c-member_slug--link:hover,
+.c-member_slug--link {
     color: var(--primary);
 }
 
