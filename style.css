@@ -201,7 +201,7 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
    background-color: var(--background) !important;
-   border: solid var(--border-bright);
+   border: solid var(--border-dim);
    border-width: 1px 1px 1px 0;
 }
 
@@ -949,7 +949,7 @@ div::-webkit-scrollbar-thumb {
 
 #channel_scroll_down, #channel_scroll_up {
    background-color: var(--background) !important;
-   border: 0 1px 1px 1px solid var(--border-bright) !important;
+   border: 0 1px 1px 1px solid var(--border-dim) !important;
 }
 
 #team_menu, #quick_switcher_btn, #team_menu_overlay, #col_channels_overlay {
