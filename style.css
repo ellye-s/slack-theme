@@ -200,9 +200,9 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__link--selected:visited,
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
-   background-color: var(--background) !important;
+   background-color: #3a3a3a !important;
    border: solid var(--border-dim);
-   border-width: 1px 1px 1px 0;
+   border-width: 0;
 }
 
 .p-channel_sidebar__channel:hover,
@@ -220,7 +220,7 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
    border: solid var(--border-dim);
-   border-width: 1px 1px 1px 0;
+   border-width: 0;
 }
 
 /*broken*/
