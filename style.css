@@ -1515,11 +1515,11 @@ ts-jumper .p-jumper__help {
 }
 
 .c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box {
-    background-color: #000;
+    background-color: rgba(0,0,0,.4);
 }
 
 .c-search_autocomplete__suggestion_item .token {
-    background-color: rgba(0,0,0,.4);
+    color: #adadad;
 }
 
 .c-search_autocomplete__suggestion_item {
