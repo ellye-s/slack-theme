@@ -1643,3 +1643,7 @@ body .emoji-only {
     line-height: 2rem !important;
     font-size: 2rem !important;
 }
+
+.p-emoji_picker__input:focus {
+    border-color: #fff !important;
+}
