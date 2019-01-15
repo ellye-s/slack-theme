@@ -1644,6 +1644,6 @@ body .emoji-only {
     font-size: 2rem !important;
 }
 
-.p-emoji_picker__input:focus {
+input.p-emoji_picker__input:focus {
     border-color: #fff !important;
 }
