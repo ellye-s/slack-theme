@@ -1565,7 +1565,7 @@ ts-jumper .p-jumper__help {
 .c-search_autocomplete__suggestion_item--selected .c-unified_member__title, 
 .c-search_autocomplete__suggestion_item--selected .c-unified_member__other-names, 
 .c-search_autocomplete__suggestion_item--selected .c-unified_member__other-names {
-    color: var(--background);
+    color: var(--background) !important;
 }
 
 #edit_topic_trigger, 
