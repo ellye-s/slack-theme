@@ -32,7 +32,7 @@ limitations under the License.
    --text-bright: #FFF;
    --text-special: var(--primary);
 
-   --scrollbar-background: #000;
+   --scrollbar-background: var(--border-dim);
    --scrollbar-border: var(--border-dim);
 }
 
@@ -1550,6 +1550,11 @@ ts-jumper .p-jumper__help {
 .tab_complete_ui li.tab_complete_ui_group.active, 
 .tab_complete_ui li.tab_complete_ui_item.active {
     background: var(--primary);
+}
+
+#chat_input_tab_ui_scroller .type_emoji li.tab_complete_ui_item.active,
+#chat_input_tab_ui_scroller .type_emoji li.tab_complete_ui_item:hover {
+   background: #616161;
 }
 
 .c-search_autocomplete__suggestion_item--selected {
