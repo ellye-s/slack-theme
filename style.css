@@ -121,9 +121,9 @@ ts-jumper input[type="text"],
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
     background: var(--background);
 }
-.p-message_pane__limited_history_foreword {	
+.p-message_pane__limited_history_foreword { 
     color: var(--text);
-	background: var(--background-elevated);
+    background: var(--background-elevated);
 }
 
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
@@ -137,7 +137,7 @@ ts-jumper input[type="text"],
 }
 
 .c-message__body {
-	color: var(--text);
+    color: var(--text);
 }
 
 .c-message_list__day_divider__label__pill {
@@ -146,7 +146,7 @@ ts-jumper input[type="text"],
 }
 .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name a, .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name span
 {
-	color: var(--text);
+    color: var(--text);
 }
 .c-message_group {
     background-color: unset;
@@ -161,7 +161,7 @@ ts-jumper input[type="text"],
 }
 
 .c-message_attachment__border {
-	background-color: var(--background-elevated) !important;
+    background-color: var(--background-elevated) !important;
 }
 .c-member_slug--link {
     background: var(--background-elevated);
@@ -329,7 +329,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 }
 
 textarea, input[type="text"], #file_comment_textarea {
-	background-color: var(--background-elevated) !important;
+    background-color: var(--background-elevated) !important;
    border-color: var(--border-dim) !important;
    color: var(--text) !important;
 }
@@ -757,7 +757,7 @@ ts-message .reply_bar:hover {
   border: 1px solid var(--border-dim) !important;
 }
 ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-message.active .timestamp, ts-message.active.automated .message_body, ts-message.message--focus .edited, ts-message.message--focus .reply_bar .last_reply_at, ts-message.message--focus .timestamp, ts-message.message--focus.automated .message_body, ts-message:hover .edited, ts-message:hover .reply_bar .last_reply_at, ts-message:hover .timestamp, ts-message:hover.automated .message_body {
-	color: var(--text-bright);
+    color: var(--text-bright);
 }
 #threads_msgs .inline_message_input_container.with_file_upload,
 #reply_container.upload_in_threads .inline_message_input_container {
@@ -835,7 +835,7 @@ ts-thread .thread_messages,
 }
 .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before
 {
-	box-shadow: 0 32px var(--background);
+    box-shadow: 0 32px var(--background);
 }
 ts-thread .collapse_inline_thread_container:hover,
 ts-thread .view_all_replies_container:hover {
@@ -1083,7 +1083,7 @@ ts-jumper ts-jumper-container {
     background-color: var(--background-elevated);
 }
 .ts_toggle .ts_toggle_secondary_label {
-	color: var(--text);
+    color: var(--text);
 }
 /* modal transition */
 #fs_modal_bg, .fs_modal_bg {
@@ -1103,19 +1103,19 @@ ts-jumper ts-jumper-container {
     background-color: unset;
 }
 .p-search_filter__title_text {
-	background-color: var(--background);
+    background-color: var(--background);
 }
 .p-search_filter__dates {
-	background-color: var(--background-elevated) !important;
+    background-color: var(--background-elevated) !important;
 }
 .c-search_autocomplete__suggestion_content .c-channel_name .c-deprecated-icon, .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_icon, .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text .filetype_description,
 .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text .token
 { 
-	color: var(--text);
+    color: var(--text);
 }
 
 .token {
-	background-color: var(--background-elevated) !important;
+    background-color: var(--background-elevated) !important;
 }
 .c-search_modal .popover>div { background-color: var(--background); }
 
@@ -1168,7 +1168,7 @@ ts-jumper ts-jumper-container {
     color: var(--text);
 }
 #channel_browser .channel_browser_divider {
-	color: var(--text);
+    color: var(--text);
     background: var(--background-hover);
 }
 #channel_browser .channel_browser_row {
@@ -1191,7 +1191,7 @@ ts-jumper ts-jumper-container {
 .p-apps_browser__app_limit_meter__blank_app_box {
     background-color: var(--background-hover);
 }
-.p-apps_browser__app--selected {	
+.p-apps_browser__app--selected {    
     background: var(--background-hover);
 }
 /** menus **/
@@ -1201,7 +1201,7 @@ ts-jumper ts-jumper-container {
 }
 
 .sidebar_menu_list_item {
-	color: var(--text-bright);
+    color: var(--text-bright);
 }
 
 .sidebar_menu_list_item:not(.is_active):hover {
@@ -1211,7 +1211,7 @@ ts-jumper ts-jumper-container {
 /* message action menu */
 .c-menu {
     background-color: var(--background-elevated);
-	color: var(--text-bright);
+    color: var(--text-bright);
     border: 1px solid var(--border-dim);
 }
 .c-menu_item__label {
@@ -1230,13 +1230,13 @@ ts-jumper ts-jumper-container {
 
 /* member detail view */
 #member_preview_scroller .member_data_table tr, #member_preview_web_container .member_data_table tr, #team_list .member_data_table tr, .menu_member_header .member_data_table tr {
-	color: var(--text-bright);
+    color: var(--text-bright);
 }
 #member_preview_scroller .member_details .member_name_and_presence .member_name, #member_preview_web_container .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_current_status, .menu_member_header .member_details .member_timezone_value {
-	color: var(--text);
+    color: var(--text);
 }
 .menu_member_header .member_details .member_current_status a, .menu_member_header .member_details .member_timezone_value a {
-	color: var(--text-special);
+    color: var(--text-special);
 }
 
 /* channel detail view */
@@ -1245,7 +1245,7 @@ ts-jumper ts-jumper-container {
     color: unset;
 }
 .c-channel_insights__date_heading span {
-	background-color: var(--background-light);
+    background-color: var(--background-light);
 }
 .channel_page_member_row:hover {
     background-color: var(--background-hover);
@@ -1306,7 +1306,7 @@ ts-jumper ts-jumper-container {
     color: var(--text-bright);
 }
 .c-file_container--has_thumb .c-file__actions:before {
-	background-image: none;
+    background-image: none;
 }
 /* file drafts */
 ts-rocket, ts-rocket.post_body {
@@ -1319,7 +1319,7 @@ nav {
 
 /* calendar */
 .pickmeup  {
-	background-color: var(--background-elevated);
+    background-color: var(--background-elevated);
 }
 
 .pmu-disabled {
@@ -1336,7 +1336,7 @@ nav {
 /* scrollbar */
 .c-scrollbar__bar {
     background: var(--scrollbar-background);
-	border: 1px solid var(--scrollbar-border);
+    border: 1px solid var(--scrollbar-border);
 }
 /* actions */
 .c-button--outline {
@@ -1384,7 +1384,7 @@ nav {
     border: 1px solid var(--border-dim);
 }
 #client-ui .file_list_item .monospace {
-    color: var(--text);	
+    color: var(--text); 
 }
 .c-pillow_file_container {
     background: var(--background);
@@ -1397,11 +1397,11 @@ nav {
     border: 1px solid var(--border-dim);
 }
 .p-file_list__filters {
-	background: var(--background-elevated);
-	padding-top: 12px;
+    background: var(--background-elevated);
+    padding-top: 12px;
 }
 .c-pillow_file_container--full_width:focus, .c-pillow_file_container--full_width:focus-within, .c-pillow_file_container--full_width:hover {
-	background-color: var(--background-elevated);
+    background-color: var(--background-elevated);
 }
 /* side lists */
 #client-ui .searchable_member_list .team_list_item:hover {
@@ -1449,12 +1449,12 @@ nav {
 /* browse apps */
 .c-filter_input, .p-apps_browser__category_header {
     background: var(--background-elevated);
-}	
+}   
 .p-apps_browser__category_header {
-	color: var(--text);
+    color: var(--text);
 }
 .charcoal_grey {
-	color: var(--text) !important;
+    color: var(--text) !important;
 }
 
 /* people mentioning */
@@ -1465,7 +1465,7 @@ nav {
     background: var(--background-elevated);
 }
 .tab_complete_ui ul.type_members .unify_broadcast {
-	color: var(--text);	
+    color: var(--text); 
 }
 .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
     background: var(--background-elevated);
@@ -1474,15 +1474,15 @@ nav {
 /* message thumbs up */
 .c-reaction {
     background: var(--background);
-    border: 1px solid var(--border-dim); 	
+    border: 1px solid var(--border-dim);    
 }
 .c-reaction__count {
-	color: var(--text-bright);
+    color: var(--text-bright);
 }
 
 /* tooltips */
 .ts_tip .ts_tip_tip {
-	color: var(--text);
+    color: var(--text);
 }
 
 /* "only visible to you" highlight */
@@ -1506,7 +1506,7 @@ ts-jumper .p-jumper__help {
 }
 
 .c-message__editor__input--legacy {
-	background-color: #000;
+    background-color: #000;
 }
 
 .c-message__editor__input--legacy.focus {
@@ -1557,6 +1557,14 @@ ts-jumper .p-jumper__help {
 }
 
 .c-search_autocomplete__suggestion_item--selected {
+    color: var(--background);
+}
+
+.c-search_autocomplete__suggestion_item--selected .c-unified_member__display-name, 
+.c-search_autocomplete__suggestion_item--selected .c-unified_member__secondary-name, 
+.c-search_autocomplete__suggestion_item--selected .c-unified_member__title, 
+.c-search_autocomplete__suggestion_item--selected .c-unified_member__other-names, 
+.c-search_autocomplete__suggestion_item--selected .c-unified_member__other-names {
     color: var(--background);
 }
 
