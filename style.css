@@ -260,8 +260,12 @@ li.active[class] span,
 
 /* new scrollbar */
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
-  background: var(--background-elevated);
-  border: 1px solid var(--scrollbar-border);
+    background: #333;
+    border: 1px solid #505050;
+}
+
+.c-scrollbar .c-scrollbar__track {
+    right: 0px;
 }
 
 #channels_scroller.show_which_channel_is_active[class] li.active .presence.active i.presence_icon,
