@@ -1647,3 +1647,5 @@ body .emoji-only {
 input.p-emoji_picker__input:focus {
     border-color: #fff !important;
 }
+
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before { opacity: 0; }
